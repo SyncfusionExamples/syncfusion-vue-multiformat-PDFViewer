@@ -1,0 +1,67 @@
+@import '@syncfusion/ej2-material3-theme/styles/material3.css';
+
+#pdfviewer {
+    height: 640px;
+    width: 100%;
+}
+
+.content-wrapper-pdfviewer {
+    border: 1px dashed #c3c3cc;
+    position: relative;
+    text-align: center;
+    padding: 20px 0 10px;
+    margin-bottom: 15px;
+    margin-top: 20vh;
+    width: 100%;
+    overflow: visible;
+}
+
+/* .browse-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#browse.e-btn.e-control.e-browse-blue,
+#browse.e-btn.e-control.e-browse-blue.e-primary,
+.e-bigger #browse.e-btn.e-control.e-browse-blue {
+    background-color: #1e88e5;
+    border-color: #1e88e5;
+    color: #ffffff;
+}
+
+#browse.e-btn.e-control.e-browse-blue:hover,
+#browse.e-btn.e-control.e-browse-blue.e-primary:hover,
+.e-bigger #browse.e-btn.e-control.e-browse-blue:hover {
+    background-color: #1565c0;
+    border-color: #1565c0;
+    color: #ffffff;
+}
+
+#browse.e-btn.e-control.e-browse-blue:active,
+#browse.e-btn.e-control.e-browse-blue.e-primary:active {
+    background-color: #0d47a1;
+    border-color: #0d47a1;
+    color: #ffffff;
+}
+
+#browse:focus-visible {
+    box-shadow: none !important;
+}
+
+#linear-pdfviewer {
+    width: fit-content;
+}
+
+#uploader-pdfviewer {
+    display: none;
+}
+
+
+.e-pv-multi-format-pdfviewer .e-pv-text-search-bar {
+    top: 40px !important;
+}
+
+.e-bigger .e-pv-multi-format-pdfviewer .e-pv-text-search-bar {
+    top: 48px !important;
+}
