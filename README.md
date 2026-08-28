@@ -47,7 +47,7 @@ dotnet run
 
 ### Client
 ```bash
-cd client
+cd vue-app
 npm install
 npm run serve
 ```
