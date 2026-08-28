@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Syncfusion.DocIORenderer.Net.Core" Version="*" />
+		<PackageReference Include="Syncfusion.PresentationRenderer.Net.Core" Version="*" />
+		<PackageReference Include="Syncfusion.XlsIORenderer.Net.Core" Version="*" />
+	</ItemGroup>
+
+</Project>
